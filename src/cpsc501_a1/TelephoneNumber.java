@@ -11,4 +11,9 @@ package cpsc501_a1;
  */
 public class TelephoneNumber {
     
+    // These fields were moved from the class "Person"
+    // using the "move field" refactoring.
+  private String officeAreaCode;
+  private String officeNumber;
+    
 }
