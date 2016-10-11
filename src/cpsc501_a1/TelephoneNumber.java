@@ -22,5 +22,12 @@ public class TelephoneNumber {
     public void setAreaCode(String arg) {
         officeAreaCode = arg;
     }
+
+    public String getNumber() {
+        return officeNumber;
+    }
     
+    public void setNumber(String arg) {
+        officeNumber = arg;
+    }
 }
