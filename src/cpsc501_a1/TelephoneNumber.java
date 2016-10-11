@@ -1,19 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package cpsc501_a1;
 
 /**
  *
- * @author vektor
+ * @author Sartaj Hundal
  */
 public class TelephoneNumber {
     
     // These fields were moved from the class "Person"
     // using the "move field" refactoring.
-  private String officeAreaCode;
-  private String officeNumber;
+    private String officeAreaCode;
+    private String officeNumber;
+    
+    // Before "Introduce Foreign Method" refactoring
+    // can be applied, need mutator and accessor
+    // corresponding to above attributes in this class.
+    
+    public String getAreaCode() {
+        return officeAreaCode;
+    }
+    
+    public void setAreaCode(String arg) {
+        officeAreaCode = arg;
+    }
     
 }
