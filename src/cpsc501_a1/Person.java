@@ -6,12 +6,7 @@ package cpsc501_a1;
  */
 class Person {
   private String name;
-  // To be refactored into "TelephoneNumber"
-  // officeAreaCode and officeNumber are attributes
-  // of a TelephoneNumber, not a person.
-  private String officeAreaCode;
-  private String officeNumber;
-
+  
   public String getName() {
     return name;
   }
